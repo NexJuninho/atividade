@@ -1,0 +1,11 @@
+ 
+ Projeto portifólio - SCTEC
+	
+	O projeto foi codificado utilizando as seguintes linguagens:
+		
+		HTML, para o estruturamento do portifólio.
+		CSS, usado para os stilos e organização da página.
+		JavaScript, para o navbar incorporado diretamente no HTML.
+		Bootstrap, para melhor organização visualmente e responsivamente.
+
+	Esse projeto foi desenvolvido e criado por mim Ronaldo Rocha Paz Junior.

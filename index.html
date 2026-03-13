@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="shortcut icon" href="img/dvpicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+<body>
+
+    <header>
+
+        <nav class="navbar fixed-top">
+            <div class="logo"><a href="index.html">Ronaldo Junior</a></div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a style="text-transform: none;"
+                        href="https://api.whatsapp.com/send?phone=5548991949995">whatsapp</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+        <div class="banner" id="banner">
+            <img src="img/banner1.png" alt="Imagem 1">
+        </div>
+    </header>
+
+    <section id="sobre">
+
+        <div class="container content-section text-center">
+            <div class="row justify-content-center">
+                <div class="col-sm-8">
+                    <h2>Sobre Mim</h2>
+                    <p>Olá! Eu sou um desenvolvedor web front-end e designer gráfico, com 35 anos e uma paixão
+                        por criar soluções visuais e funcionais. Sou gaúcho, mas moro em Santa Catarina há 10 anos,
+                        e tenho um perfil extrovertido e simpático, sempre pronto para trabalhar em equipe e encarar
+                        novos desafios.
+                        <br><br>
+                        Minha jornada na área de tecnologia começou com um curso de programação web front-end, e desde
+                        então venho ampliando minhas habilidades. Além do desenvolvimento de sites, também tenho
+                        experiência
+                        como designer gráfico, criando artes para redes sociais, logomarcas e identidades visuais.
+                        <br><br>
+                        Sou uma pessoa que valoriza um ambiente de trabalho colaborativo e desafiador, sempre buscando o
+                        melhor
+                        resultado para os projetos.
+                    </p>
+
+                    <h3>Conhecimentos</h3>
+                    <ul class="conhecimento">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>JQuerry</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="container">
+            <h2>Meus Trabalhos</h2>
+            <div class="projetos">
+                <div class="projeto-item">
+                    <img src="img/banner2.png" alt="Projeto 1">
+                    <h3>Desenvolvimento de Site</h3>
+                    <p style="text-align: justify;">
+                        Este projeto consistiu no desenvolvimento de um site responsivo para uma empresa
+                        especializada em máquinas de café, snacks e outros produtos. O site foi projetado
+                        para atender todas as necessidades e especificações do cliente, garantindo uma experiência
+                        de navegação intuitiva e agradável. A plataforma é totalmente adaptável a dispositivos móveis,
+                        assegurando acessibilidade e usabilidade em qualquer tela. Além disso, todas as funcionalidades
+                        solicitadas pelo cliente foram implementadas com precisão, garantindo uma experiência completa e
+                        satisfatória para os usuários.
+                    </p>
+                    <a href="https://www.maquinasdevender1.com.br/index.html">First Class - Máquinas de conveniência</a>
+
+
+                </div>
+                <div class="projeto-item">
+                    <img src="img/banner3.png" alt="Projeto 2">
+                    <h3>Designer Gráfico</h3>
+                    <p style="text-align: justify;">
+                        Desenvolvi identidades visuais completas para clientes, incluindo criação de 
+                        logomarcas e artes para redes sociais, como Instagram e Facebook, sempre alinhadas à identidade e aos 
+                        objetivos do negócio.</p>
+                </div>
+                <div class="projeto-item">
+                    <img src="img/banner4.png" alt="Projeto 3">
+                    <h3>Social Mídia</h3>
+                    <p style="text-align: justify;">
+                        Gerencio as redes sociais dos meus clientes, cuidando de toda a presença online. Isso inclui o planejamento 
+                        de postagens, criação de conteúdo visual e textual, agendamento de publicações e interação com o público, 
+                        garantindo uma comunicação consistente e engajadora
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+
+        <p>Contato: ronaldojunior.dvp@outlook.com</p>
+        <p>© 2026 Todos os direitos reservados a <a href="https://api.whatsapp.com/send?phone=5548991949995">Ronaldo
+                Junior</a></p>
+
+
+    </footer>
+
+    <script>
+
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>
